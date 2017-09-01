@@ -1,0 +1,219 @@
+SDK ver: 1.5.3 compiled @ Nov  4 2016 23:20:14
+
+phy ver: 1104, pp ver: 9.9
+ 
+user_init: Starting the initialization-process!
+mesh version: v1.3.3
+mode : sta(18:fe:34:d4:08:2c) + softAP(1a:fe:34:d4:08:2c)
+add if0
+add if1
+dhcp server start:(ip:192.168.4.1,mask:255.255.255.0,gw:192.168.4.1)
+bcn 100
+scan-ch:0
+f r0, scandone
+sssid:testNetwork, ssid:testNetwork, set:0, sbssi:00:00:00:00:00:00  bssid:62:01:94:0b:d8:5blast:1
+connect_dest_chan:1
+f r0, espconn_mesh_scan_done connect testNetwork
+scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+state: 5 -> 0 (2)
+rm 0
+connect_dest_chan:1
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+state: 5 -> 0 (2)
+rm 0
+
+connect_dest_chan:1
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, connect_dest_chan:1
+scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+
+add 0
+aid 1
+cnt
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, connect_dest_chan:1
+scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+
+cnt
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, connect_dest_chan:1
+scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+connect_dest_chan:1
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+espconn_mesh_connect, ip:115.29.202.58,rport:8000, port:20712
+espconn_mesh_pack_connect, idx:2, 103242844
+rip:115.29.202.58rp:8000
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+
+cnt
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 0 (2)
+f 0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+state: 5 -> 0 (0)
+
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt
+ 
+connected with testNetwork, channel 1
+dhcp client start...
+
+ip:192.168.4.2,mask:255.255.255.0,gw:192.168.4.1
+Got IP, IP:192.168.4.2Mask:255.255.255.0GW:192.168.4.1
+espconn_mesh_connect, ip:115.29.202.58,rport:8000, port:7390
+espconn_mesh_pack_connect, idx:3, 177245531
+rip:115.29.202.58rp:8000
+espconn_mesh_connect, ip:115.29.202.58,rport:8000, port:46519
+espconn_mesh_pack_connect, idx:4, 181247521
+rip:115.29.202.58rp:8000
+state: 5 -> 0 (0)
+rm 0
+scan-ch:1
+f r0, scandone
+f r0, scandone
+state: 0 -> 2 (b0)
+state: 2 -> 3 (0)
+state: 3 -> 5 (10)
+add 0
+aid 1
+cnt

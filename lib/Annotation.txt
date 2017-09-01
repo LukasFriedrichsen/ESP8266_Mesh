@@ -1,0 +1,2 @@
+This folder was forked from https://github.com/espressif/ESP8266_MESH_DEMO/tree/master/lib/
+since the libraries' versions in the current NONOS-SDK (v2.0.0_16_08_10) are outdated.
